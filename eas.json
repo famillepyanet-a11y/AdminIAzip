@@ -5,8 +5,16 @@
   "build": {
     "production": {
       "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "preview": {
+      "android": {
         "buildType": "apk"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
