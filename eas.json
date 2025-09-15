@@ -3,14 +3,12 @@
     "version": ">= 3.13.0"
   },
   "build": {
-    "production": {
-      "distribution": "store",
+    "preview": {
       "android": {
         "buildType": "apk"
       }
     },
-    "preview": {
-      "distribution": "internal",
+    "production": {
       "android": {
         "buildType": "apk"
       }
