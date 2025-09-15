@@ -13,13 +13,23 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "bundleIdentifier": "com.pyanet.adminia"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.famillepyanet.adminia"
     },
     "android": {
-      "package": "com.pyanet.adminia",
-      "versionCode": 1
+      "package": "com.famillepyanet.adminia",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
