@@ -4,6 +4,7 @@
   },
   "build": {
     "production": {
+      "distribution": "store",
       "android": {
         "buildType": "apk"
       }
